@@ -21,6 +21,8 @@ source ~/.config/nvim/maps.vim
 source ~/.config/nvim/buffer.vim
 " colorscheme
 source ~/.config/nvim/colorscheme.vim
+" autocmd
+source ~/.config/nvim/autocmd.vim
 
 " Telescope set up
 lua require("telescope-config")
