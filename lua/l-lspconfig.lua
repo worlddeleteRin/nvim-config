@@ -70,6 +70,10 @@ nvim_lsp["dartls"].setup {
     filetypes = {"dart"}
 }
 
+nvim_lsp["tailwindcss"].setup {
+    on_attach = on_attach,
+}
+
 
 
 --[[

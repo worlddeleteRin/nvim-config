@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
+" git lines
+Plug 'airblade/vim-gitgutter'
 " pug support
 Plug 'digitaltoad/vim-pug'
 " vue components highlight support
