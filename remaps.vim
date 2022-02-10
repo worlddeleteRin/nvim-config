@@ -22,8 +22,8 @@ function! ToggleQuickFix()
 endfunction
 
 " nnoremap <silent> <c-q> :call ToggleQuickFix()<cr>
-nnoremap <c-h> :cnext<cr>
-nnoremap <c-l> :cprev<cr>
+nnoremap <c-h> :cprev<cr>
+nnoremap <c-l> :cnext<cr>
 
 inoremap , ,<c-g>u
 inoremap . .<c-g>u
