@@ -8,4 +8,3 @@ autocmd FileType python imap <buffer> <C-r> <esc>:w<CR>:exec '!python3' shellesc
 
 " autocmd BufWritePre <buffer> <cmd>EslintFixAll<CR>
 " autocmd BufWritePost *.vue,*.js,*.ts EslintFixAll
-" add comment master
