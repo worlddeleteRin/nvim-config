@@ -7,7 +7,13 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
+set nobackup
+set incsearch
+set cmdheight=1
+" performance issues?
+set updatetime=50
 set fileformat=unix
+set colorcolumn=80
 " load filetype-specific indent files
 filetype indent on      
 
