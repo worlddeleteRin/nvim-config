@@ -36,4 +36,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" Dart syntax highlight
+Plug 'dart-lang/dart-vim-plugin'
+
 call plug#end()
