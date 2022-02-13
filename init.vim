@@ -2,10 +2,10 @@ set encoding=utf-8
 set number
 set noswapfile
 set scrolloff=7
-set tabstop=3
-set softtabstop=4
-set shiftwidth=4
-set expandtab
+" set tabstop=3
+" set softtabstop=2
+" set shiftwidth=2
+" set expandtab
 set autoindent
 set nobackup
 set incsearch
