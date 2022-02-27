@@ -1,5 +1,7 @@
 "autocmd FileType vim,dart,js,javascript,html,ts,jsx,tsx setlocal ts=2 sts=2 sw=2
-autocmd BufEnter *.vim,*.dart,*.js,*.javascript,*.html,*.ts,*.jsx,*.tsx setlocal ts=2 sts=2 sw=2
+" autocmd BufEnter *.vim,*.dart,*.js,*.javascript,*.html,*.ts,*.jsx,*.tsx,*.vue setlocal ts=2 sts=2 sw=2
+autocmd BufEnter *.vim,*.dart,*.js,*.javascript,*.html,*.ts,*.jsx,*.tsx,*.vue setlocal ts=4 sts=4 sw=4
+
 " autocmd FileType vue,ts,js,tsx setlocal ts=2 sts=2 sw=2
 " autocmd FileType typescript setlocal ts=2 sts=2 sw=2
 " autocmd FileType vue,ts,js setlocal ts=4 sts=4 sw=4

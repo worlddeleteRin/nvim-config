@@ -5,7 +5,7 @@ set scrolloff=7
 " set tabstop=3
 " set softtabstop=2
 " set shiftwidth=2
-" set expandtab
+set expandtab
 set autoindent
 set nobackup
 set incsearch
