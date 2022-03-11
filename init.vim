@@ -2,16 +2,16 @@ set encoding=utf-8
 set number
 set noswapfile
 set scrolloff=7
-set tabstop=3
-set softtabstop=4
-set shiftwidth=4
+" set tabstop=3
+" set softtabstop=4
+" set shiftwidth=4
 set expandtab
 set autoindent
 set nobackup
 set incsearch
 set cmdheight=1
 " performance issues?
-set updatetime=50
+set updatetime=100
 set fileformat=unix
 set colorcolumn=80
 " load filetype-specific indent files
@@ -44,3 +44,7 @@ function! s:Warn(msg)
   echohl NONE
 endfunction
 
+" enable indent support
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1

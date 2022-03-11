@@ -18,7 +18,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 " testing lsp installer
-Plug 'williamboman/nvim-lsp-installer'
+" Plug 'williamboman/nvim-lsp-installer'
 " eof testin
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
@@ -28,12 +28,16 @@ Plug 'L3MON4D3/LuaSnip'
 
 " color schemas
 Plug 'morhetz/gruvbox'  " colorscheme gruvbox
-Plug 'mhartington/oceanic-next'  " colorscheme OceanicNext
-Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-Plug 'ayu-theme/ayu-vim'
+" Plug 'mhartington/oceanic-next'  " colorscheme OceanicNext
+" kPlug 'kaicataldo/material.vim', { 'branch': 'main' }
+" Plug 'ayu-theme/ayu-vim'
 
 " For JS/JSX
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
+
+" indentation support
+        
+Plug 'nathanaelkane/vim-indent-guides'
 
 call plug#end()

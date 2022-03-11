@@ -48,7 +48,7 @@ nvim_lsp["pyright"].setup {
 
 nvim_lsp["tsserver"].setup {
     on_attach = on_attach,
-    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" }    
+    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescriptreact", "typescript.tsx", "typescript"}    
 }
 
 nvim_lsp["vuels"].setup {
