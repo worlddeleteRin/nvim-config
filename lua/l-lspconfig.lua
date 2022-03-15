@@ -39,28 +39,30 @@ end
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
 -- pyright tailwindcss html eslint tsserver rust_analyzer?
-local servers = { 'pyright', 'tsserver' }
 
--- setup pyright server
+-- python pyright
 nvim_lsp["pyright"].setup {
     on_attach = on_attach,
 }
 
+-- typescript
 nvim_lsp["tsserver"].setup {
     on_attach = on_attach,
     filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescriptreact", "typescript.tsx", "typescript"}    
 }
 
+-- vue
 nvim_lsp["vuels"].setup {
     on_attach = on_attach,
     filetypes = {"vue"}
 }
 
+-- eslint
 nvim_lsp["eslint"].setup {
     on_attach = on_attach,
-
 }
 
+-- dart
 nvim_lsp["dartls"].setup {
     cmd = {
         "dart",
@@ -70,11 +72,40 @@ nvim_lsp["dartls"].setup {
     filetypes = {"dart"}
 }
 
+-- tailwindcss
 nvim_lsp["tailwindcss"].setup {
     on_attach = on_attach,
 }
 
-
+-- lua | sumneko_lua
+local runtime_path = vim.split(package.path, ';')
+table.insert(runtime_path, "lua/?.lua")
+table.insert(runtime_path, "lua/?/init.lua")
+nvim_lsp["sumneko_lua"].setup {
+    settings = {
+    Lua = {
+      runtime = {
+        -- Tell the language server which version of Lua you're using (most likely LuaJIT in the case of Neovim)
+        version = 'LuaJIT',
+        -- Setup your lua path
+        path = runtime_path,
+      },
+      diagnostics = {
+        -- Get the language server to recognize the `vim` global
+        globals = {'vim'},
+      },
+      workspace = {
+        -- Make the server aware of Neovim runtime files
+        library = vim.api.nvim_get_runtime_file("", true),
+      },
+      -- Do not send telemetry data containing a randomized but unique identifier
+      telemetry = {
+        enable = false,
+      },
+    },
+  },
+  on_attach = on_attach
+}
 
 --[[
     cmd = {

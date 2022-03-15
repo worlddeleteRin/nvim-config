@@ -11,7 +11,7 @@ set nobackup
 set incsearch
 set cmdheight=1
 " performance issues?
-set updatetime=100
+set updatetime=50
 set fileformat=unix
 set colorcolumn=80
 " load filetype-specific indent files
@@ -28,11 +28,13 @@ source ~/.config/nvim/buffer.vim
 " colorscheme
 source ~/.config/nvim/colorscheme.vim
 " autocmd
-source ~/.config/nvim/autocmd.vim
+" source ~/.config/nvim/autocmd.vim
 
 " Telescope set up
 lua require("telescope-config")
 lua << EOF
+-- autocmd init
+require("autocmd")
 require("l-config")
 require("l-lspconfig")
 EOF
