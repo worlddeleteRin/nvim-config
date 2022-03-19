@@ -40,4 +40,7 @@ Plug 'maxmellon/vim-jsx-pretty'
         
 Plug 'nathanaelkane/vim-indent-guides'
 
+" nvim statusline
+Plug 'nvim-lualine/lualine.nvim'
+
 call plug#end()
