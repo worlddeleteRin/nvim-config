@@ -6,7 +6,7 @@ set scrolloff=7
 " set softtabstop=4
 " set shiftwidth=4
 set expandtab
-" set autoindent
+set autoindent
 set nobackup
 set incsearch
 set cmdheight=1
@@ -40,7 +40,7 @@ require("l-lspconfig")
 -- require("lualine-cfg")
 require("lualine-evil-cfg")
 -- TESTING
--- require("main3")
+require("main3")
 EOF
 
 " Display an error message.

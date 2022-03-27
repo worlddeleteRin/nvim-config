@@ -6,17 +6,17 @@ local fmt = require("luasnip.extras.fmt").fmt
 local c = ls.choice_node
 
 ls.snippets = {
-  python = {
+  typescriptreact = {
     s(
-      "todo",
+      "cmnt",
       fmt(
         [[
-          # {}
+          {}
         ]],
         {
           c(1, {
-            t "TODO: some text here ",
-            t "(vlad) TODO: some text here "
+            t "{/* */}",
+            t ""
           }),
         }
       )
