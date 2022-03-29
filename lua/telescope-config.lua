@@ -1,9 +1,14 @@
 local telescope = require('telescope')
 telescope.setup {
     file_browser = {
-        -- use the "ivy" theme if you want
-        theme = "ivy",
-    }
+      -- use the "ivy" theme if you want
+      theme = "dropdown",
+    },
+    pickers = {
+      find_files = {
+        theme = "dropdown",
+      }
+    },
 }
 -- To get telescope-file-browser loaded and working with telescope,
 -- you need to call load_extension, somewhere after setup function:
