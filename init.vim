@@ -31,9 +31,9 @@ source ~/.config/nvim/colorscheme.vim
 " source ~/.config/nvim/autocmd.vim
 
 " Telescope set up
-lua require("telescope-config")
 lua << EOF
 -- autocmd init
+require("telescope-config")
 require("autocmd")
 require("l-config")
 require("l-lspconfig")
