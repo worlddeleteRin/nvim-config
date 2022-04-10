@@ -40,7 +40,7 @@ require("l-lspconfig")
 -- require("lualine-cfg")
 require("lualine-evil-cfg")
 -- TESTING
--- require("main3")
+require("main3")
 EOF
 
 " Display an error message.

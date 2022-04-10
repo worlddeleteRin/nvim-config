@@ -42,5 +42,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 " nvim statusline
 Plug 'nvim-lualine/lualine.nvim'
+" icons
+Plug 'kyazdani42/nvim-web-devicons'
 
 call plug#end()
