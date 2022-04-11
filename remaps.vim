@@ -1,6 +1,6 @@
 nnoremap ff <cmd>Telescope find_files<cr>
 nnoremap FF <cmd>Telescope<cr>
-nnoremap fg <cmd>lua require('telescope.builtin').grep_string()<cr>
+nnoremap fg <cmd>lua require('telescope.builtin').live_grep()<cr>
 
 " make capital H and L to switch between tabs
 nnoremap L gt
