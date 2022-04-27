@@ -1,6 +1,6 @@
 
 local defaultIndent = 2
-local currentJsIndent = 2
+local currentJsIndent = 4
 
 local set = vim.opt
 
