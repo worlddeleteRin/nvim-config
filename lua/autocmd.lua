@@ -37,3 +37,5 @@ vim.api.nvim_create_autocmd("FileType", {
     set.shiftwidth = currentJsIndent
   end,
 })
+
+

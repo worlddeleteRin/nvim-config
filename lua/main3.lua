@@ -5,51 +5,32 @@ local fmt = require("luasnip.extras.fmt").fmt
 
 local c = ls.choice_node
 
-ls.snippets = {
-  typescriptreact = {
+ls.add_snippets(nil, {
+  all = {
     s(
-      "cmnt",
+      "cc",
       fmt(
         [[
           {}
         ]],
         {
-          c(1, {
-            t "{/* */}",
-            t ""
-          }),
+            t "# "
         }
       )
-    )
+    ),
   },
-  vue = {
+  typescript = {
     s(
-      "todo",
+      "cl",
       fmt(
         [[
-          {}
+          console.log('tst {1}')
         ]],
         {
-          c(1, {
-            t "// TODO",
-            t ""
-          }),
+          i(1, "")
         }
       )
-    )
-  },
-  python = {
-    s(
-      "todo",
-      fmt(
-        [[
-          {}
-        ]],
-        {
-            t "# TODO"
-        }
-      )
-    )
+    ),
   }
-}
+})
 

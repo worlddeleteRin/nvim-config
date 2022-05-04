@@ -33,14 +33,17 @@ source ~/.config/nvim/colorscheme.vim
 " Telescope set up
 lua << EOF
 -- autocmd init
-require("telescope-config")
-require("autocmd")
+
 require("l-config")
 require("l-lspconfig")
+require("autocmd")
+require("telescope-config")
 -- require("lualine-cfg")
-require("lualine-evil-cfg")
 -- TESTING
 require("main3")
+-- TESTING
+require("lualine-evil-cfg")
+
 EOF
 
 " Display an error message.
