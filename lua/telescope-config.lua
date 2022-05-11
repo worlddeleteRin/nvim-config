@@ -3,11 +3,18 @@ telescope.setup {
     defaults = {
       file_ignore_patterns = {
         "node_modules"
-      }
+      },
     },
     pickers = {
       find_files = {
         theme = "dropdown",
+        layout_strategy = 'vertical',
+        layout_config = {
+          vertical = {
+            width = 0.9,
+            height = 0.9
+          }
+        }
       },
       live_grep = {
         theme = "dropdown",
