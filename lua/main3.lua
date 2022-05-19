@@ -11,7 +11,7 @@ ls.add_snippets(nil, {
       "clg",
       fmt(
         [[
-          console.log('tst {1}')
+          console.log(`tst {1}`)
         ]],
         {
           i(1, "")

@@ -4,6 +4,13 @@ telescope.setup {
       file_ignore_patterns = {
         "node_modules"
       },
+      layout_strategy = 'vertical',
+      layout_config = {
+        vertical = {
+          width = 0.9,
+          height = 0.9
+        }
+      }
     },
     pickers = {
       find_files = {
@@ -16,15 +23,7 @@ telescope.setup {
           }
         }
       },
-      live_grep = {
-        theme = "dropdown",
-      },
     },
-    extensions = {
-      file_browser = {
-        theme = "dropdown"
-      }
-    }
 }
 -- To get telescope-file-browser loaded and working with telescope,
 -- you need to call load_extension, somewhere after setup function:
