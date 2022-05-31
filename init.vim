@@ -1,4 +1,6 @@
-set encoding=utf-8
+set clipboard+=unnamedplus
+set encoding=utf-8 
+set winbar=%=%m\ %f
 set number
 set noswapfile
 set scrolloff=7

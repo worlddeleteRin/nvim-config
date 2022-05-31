@@ -1,4 +1,5 @@
 colorscheme gruvbox
+colorscheme ayu
 
 " colorscheme OceanicNext
 "let g:material_terminal_italics = 1

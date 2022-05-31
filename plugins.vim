@@ -48,5 +48,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 " UNDER TEST
 Plug 'vim-pandoc/vim-pandoc'
+Plug 'ayu-theme/ayu-vim'
 
 call plug#end()

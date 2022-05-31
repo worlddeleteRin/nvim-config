@@ -89,6 +89,18 @@ ls.add_snippets(nil, {
         }
       )
     ),
+    s(
+      "df",
+      fmt(
+        [[
+          display: flex;
+          {1}
+        ]],
+        {
+          i(1, "")
+        }
+      )
+    ),
   }
 })
 
