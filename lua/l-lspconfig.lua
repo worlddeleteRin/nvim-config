@@ -65,6 +65,7 @@ nvim_lsp["eslint"].setup {
 }
 
 -- dart
+--[[
 nvim_lsp["dartls"].setup {
     cmd = {
         "dart",
@@ -73,6 +74,7 @@ nvim_lsp["dartls"].setup {
     on_attach = on_attach,
     filetypes = {"dart"}
 }
+--]]
 
 -- tailwindcss
 nvim_lsp["tailwindcss"].setup {

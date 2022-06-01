@@ -40,6 +40,8 @@ require("l-config")
 require("l-lspconfig")
 require("autocmd")
 require("telescope-config")
+-- custom functions
+require("custom-functions")
 -- require("lualine-cfg")
 -- TESTING
 require("main3")

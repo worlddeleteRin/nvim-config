@@ -1,6 +1,6 @@
 
 local defaultIndent = 2
-local currentJsIndent = 4
+local currentJsIndent = 2
 
 local set = vim.opt
 
@@ -37,5 +37,7 @@ vim.api.nvim_create_autocmd("FileType", {
     set.shiftwidth = currentJsIndent
   end,
 })
+
+vim.api.nvim_set_keymap('n', 'rn', '<cmd>lua RenameVar()<CR>', {})
 
 

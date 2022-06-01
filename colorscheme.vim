@@ -1,4 +1,6 @@
-colorscheme gruvbox
+" colorscheme gruvbox
+let ayucolor="dark"
+" let ayucolor="mirage"
 colorscheme ayu
 
 " colorscheme OceanicNext
