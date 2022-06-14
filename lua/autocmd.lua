@@ -1,6 +1,6 @@
 
 local defaultIndent = 2
-local currentJsIndent = 2
+local currentJsIndent = 4
 
 local set = vim.opt
 
@@ -17,7 +17,7 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.api.nvim_create_autocmd("FileType", {
   pattern = {
-    "python"
+    "python","*gd"
   },
   callback = function()
     set.tabstop = 4

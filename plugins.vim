@@ -27,7 +27,7 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'L3MON4D3/LuaSnip'
 
 " color schemas
-Plug 'morhetz/gruvbox'  " colorscheme gruvbox
+" Plug 'morhetz/gruvbox'  " colorscheme gruvbox
 " Plug 'mhartington/oceanic-next'  " colorscheme OceanicNext
 " kPlug 'kaicataldo/material.vim', { 'branch': 'main' }
 " Plug 'ayu-theme/ayu-vim'
@@ -47,7 +47,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 
 " UNDER TEST
-Plug 'vim-pandoc/vim-pandoc'
+" Plug 'vim-pandoc/vim-pandoc'
 Plug 'ayu-theme/ayu-vim'
+Plug 'calviken/vim-gdscript3'
+Plug 'hrsh7th/cmp-emoji'
 
 call plug#end()

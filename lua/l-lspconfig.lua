@@ -81,6 +81,11 @@ nvim_lsp["tailwindcss"].setup {
     on_attach = on_attach,
 }
 
+-- csharp_ls
+nvim_lsp["csharp_ls"].setup {
+    on_attach = on_attach,
+}
+
 -- lua | sumneko_lua
 local runtime_path = vim.split(package.path, ';')
 table.insert(runtime_path, "lua/?.lua")
