@@ -14,7 +14,7 @@ local luasnip = require 'luasnip'
 
 cmp.setup {
   completion = {
-    autocomplete = true
+    autocomplete = false
   },
   snippet = {
     expand = function(args)
@@ -77,5 +77,6 @@ cmp.setup {
   sources = {
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
+    { name = 'emoji' },
   },
 }
