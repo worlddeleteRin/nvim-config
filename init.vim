@@ -42,6 +42,8 @@ require("autocmd")
 require("telescope-config")
 -- custom functions
 require("custom-functions")
+-- custom keymaps
+require("keymaps")
 -- require("lualine-cfg")
 -- TESTING
 require("main3")
