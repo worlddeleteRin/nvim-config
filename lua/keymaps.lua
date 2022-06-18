@@ -10,3 +10,4 @@ vim.api.nvim_set_keymap(
 vim.api.nvim_set_keymap(
   'n', '<M-k>', '<cmd>wincmd k<CR>', {silent= true}
 )
+vim.api.nvim_set_keymap('n', 'rn', '<cmd>lua RenameVar()<CR>', {})
