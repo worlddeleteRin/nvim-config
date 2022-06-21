@@ -37,5 +37,3 @@ vim.api.nvim_create_autocmd("FileType", {
     set.shiftwidth = currentJsIndent
   end,
 })
-
-vim.api.nvim_set_keymap('n', 'rn', '<cmd>lua RenameVar()<CR>', {})
