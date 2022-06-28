@@ -13,7 +13,7 @@ set nobackup
 set incsearch
 set cmdheight=1
 " performance issues?
-set updatetime=500
+set updatetime=300
 set fileformat=unix
 set colorcolumn=80
 " load filetype-specific indent files
@@ -49,7 +49,7 @@ require("keymaps")
 require("main3")
 -- TESTING
 require("lualine-evil-cfg")
-
+require("indent-blankline")
 EOF
 
 " Display an error message.

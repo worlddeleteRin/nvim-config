@@ -3,9 +3,9 @@ call plug#begin()
 " git lines
 Plug 'airblade/vim-gitgutter'
 " pug support
-Plug 'digitaltoad/vim-pug'
+" Plug 'digitaltoad/vim-pug'
 " vue components highlight support
-Plug 'posva/vim-vue'
+" Plug 'posva/vim-vue'
 " git plugins
 Plug 'tpope/vim-fugitive'
 " eof git plugins
@@ -33,12 +33,11 @@ Plug 'L3MON4D3/LuaSnip'
 " Plug 'ayu-theme/ayu-vim'
 
 " For JS/JSX
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
+" Plug 'yuezk/vim-js'
+" Plug 'maxmellon/vim-jsx-pretty'
 
 " indentation support
-        
-Plug 'nathanaelkane/vim-indent-guides'
+" Plug 'nathanaelkane/vim-indent-guides'
 
 " nvim statusline
 Plug 'nvim-lualine/lualine.nvim'
@@ -49,7 +48,9 @@ Plug 'kyazdani42/nvim-web-devicons'
 " UNDER TEST
 " Plug 'vim-pandoc/vim-pandoc'
 Plug 'ayu-theme/ayu-vim'
-Plug 'calviken/vim-gdscript3'
+" Plug 'calviken/vim-gdscript3'
 Plug 'hrsh7th/cmp-emoji'
+
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 call plug#end()
