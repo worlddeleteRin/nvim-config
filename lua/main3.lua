@@ -8,6 +8,16 @@ local c = ls.choice_node
 ls.add_snippets(nil, {
   all = {
     s(
+      "typo",
+      fmt(
+        [[
+          ✏️
+        ]],
+        {
+        }
+      )
+    ),
+    s(
       "cons",
       fmt(
         [[
