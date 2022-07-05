@@ -50,6 +50,7 @@ require("main3")
 -- TESTING
 require("lualine-evil-cfg")
 require("indent-blankline")
+require("treesitter")
 EOF
 
 " Display an error message.
