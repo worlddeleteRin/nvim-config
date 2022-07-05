@@ -64,6 +64,12 @@ nvim_lsp["eslint"].setup {
     on_attach = on_attach,
 }
 
+-- rust (rls)
+nvim_lsp["rust_analyzer"].setup{
+    on_attach = on_attach,
+}
+
+
 -- dart
 --[[
 nvim_lsp["dartls"].setup {
