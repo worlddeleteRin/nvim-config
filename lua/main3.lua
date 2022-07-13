@@ -8,6 +8,26 @@ local c = ls.choice_node
 ls.add_snippets(nil, {
   all = {
     s(
+      "mmb",
+      fmt(
+        [[
+          @media (max-width: 768px) {{
+            {1}
+          }}
+        ]],
+        {i(1, "")}
+      )
+    ),
+    s(
+      "lint",
+      fmt(
+        [[
+          🚨
+        ]],
+        {}
+      )
+    ),
+    s(
       "mob",
       fmt(
         [[
@@ -144,11 +164,8 @@ ls.add_snippets(nil, {
       fmt(
         [[
           display: flex;
-          {1}
         ]],
-        {
-          i(1, "")
-        }
+        {}
       )
     ),
   }
