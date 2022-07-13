@@ -83,11 +83,9 @@ nvim_lsp["dartls"].setup {
 --]]
 
 -- tailwindcss
---[[
 nvim_lsp["tailwindcss"].setup {
     on_attach = on_attach,
 }
---]]
 
 -- csharp_ls
 nvim_lsp["csharp_ls"].setup {
