@@ -11,7 +11,7 @@ ls.add_snippets(nil, {
       "mmb",
       fmt(
         [[
-          @media (max-width: 768px) {{
+          @media(max-width: 768px) {{
             {1}
           }}
         ]],
