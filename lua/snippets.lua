@@ -11,12 +11,23 @@ local emoji = require 'snippets.emoji'
 local html = require 'snippets.html'
 
 -- local u = unpack
-
+--
+-- TODO FIXME refactor needed to make table / parsing it
+--
 ls.add_snippets('all', all)
 ls.add_snippets('all', emoji)
 
 ls.add_snippets('js', js.js_all)
 ls.add_snippets('js', js.js)
+ls.add_snippets('js', css)
+
+ls.add_snippets('typescript', js.js_all)
+ls.add_snippets('typescript', js.js)
+ls.add_snippets('typescript', css)
+
+ls.add_snippets('vue', js.js_all)
+ls.add_snippets('vue', css)
+ls.add_snippets('vue', js.js)
 
 ls.add_snippets('css', css)
 

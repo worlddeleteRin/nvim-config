@@ -8,13 +8,20 @@ local c = ls.choice_node
 local js_all = {
     s("clg",
       fmt(
-        [[ console.log('tst', {1}) ]],
+        [[console.log('tst', {1})]],
         { i(1, "") }
       )
     ),
 }
 
-local js = {}
+local js = {
+    s("td",
+      fmt(
+        [[// TODO {1}]],
+        { i(1, "") }
+      )
+    ),
+}
 
 return {
   js_all = js_all,
