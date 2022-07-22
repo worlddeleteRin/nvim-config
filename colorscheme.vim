@@ -21,6 +21,6 @@ if (has('termguicolors'))
 endif
 
 set colorcolumn=79
-lua require 'colorizer'.setup()
+" lua require 'colorizer'.setup()
 
 " hi Normal guibg=NONE ctermbg=NONE

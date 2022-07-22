@@ -9,7 +9,7 @@ Plug 'airblade/vim-gitgutter'
 " git plugins
 Plug 'tpope/vim-fugitive'
 " eof git plugins
-Plug 'norcalli/nvim-colorizer.lua'
+" Plug 'norcalli/nvim-colorizer.lua'
 Plug 'sharkdp/fd'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'nvim-lua/plenary.nvim'

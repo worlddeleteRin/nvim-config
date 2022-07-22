@@ -44,9 +44,10 @@ require("telescope-config")
 require("custom-functions")
 -- custom keymaps
 require("keymaps")
+-- snippets
+require("snippets")
 -- require("lualine-cfg")
 -- TESTING
-require("main3")
 -- TESTING
 require("lualine-evil-cfg")
 require("indent-blankline")
