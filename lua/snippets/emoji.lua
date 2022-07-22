@@ -7,12 +7,12 @@ local c = ls.choice_node
 
 local emoji = {
   s("refac", fmt( [[ ♻️ ]], {})),
-  s("lint", fmt( [[ 🚨 ]], {})),
-  s( "mob", fmt( [[ 📱 ]], {})),
+  s("lint", fmt( [[ 🚨]], {})),
+  s( "mob", fmt( [[ 📱]], {})),
   s( "typo", fmt( [[ ✏️ ]], {})),
-  s( "cons", fmt( [[ 🚧 ]], {})),
-  s( "lip", fmt( [[ 💄 ]], {})),
-  s( "spar", fmt( [[ ✨ ]], {})),
+  s( "cons", fmt( [[ 🚧]], {})),
+  s( "lip", fmt( [[ 💄]], {})),
+  s( "spar", fmt( [[ ✨]], {})),
 }
 
 return emoji
