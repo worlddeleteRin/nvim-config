@@ -36,8 +36,8 @@ source ~/.config/nvim/autocmd.vim
 lua << EOF
 -- autocmd init
 
-require("l-config")
-require("l-lspconfig")
+require("cmp-config-local")
+require("lsp-config-local")
 require("autocmd")
 require("telescope-config")
 -- custom functions

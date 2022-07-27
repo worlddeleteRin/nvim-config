@@ -4,6 +4,7 @@ local currentJsIndent = 4
 
 local set = vim.opt
 
+--[[
 vim.api.nvim_create_autocmd("FileType", {
   pattern = {
     "*"
@@ -14,6 +15,7 @@ vim.api.nvim_create_autocmd("FileType", {
     set.shiftwidth = defaultIndent
   end,
 })
+--]]
 
 vim.api.nvim_create_autocmd("FileType", {
   pattern = {

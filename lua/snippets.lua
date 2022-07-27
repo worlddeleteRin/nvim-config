@@ -28,6 +28,7 @@ ls.add_snippets('typescript', css)
 ls.add_snippets('vue', js.js_all)
 ls.add_snippets('vue', css)
 ls.add_snippets('vue', js.js)
+ls.add_snippets('vue', html)
 
 ls.add_snippets('css', css)
 
