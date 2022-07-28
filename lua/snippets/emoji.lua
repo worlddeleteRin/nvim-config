@@ -9,10 +9,11 @@ local emoji = {
   s("refac", fmt( [[ ♻️ ]], {})),
   s("lint", fmt( [[ 🚨]], {})),
   s( "mob", fmt( [[ 📱]], {})),
-  s( "typo", fmt( [[ ✏️ ]], {})),
+  s( "typo", fmt( [[ ✏️]], {})),
   s( "cons", fmt( [[ 🚧]], {})),
   s( "lip", fmt( [[ 💄]], {})),
   s( "spar", fmt( [[ ✨]], {})),
+  s( "upd", fmt( [[⚡]], {})),
 }
 
 return emoji

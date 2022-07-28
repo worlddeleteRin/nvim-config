@@ -14,7 +14,7 @@ local luasnip = require 'luasnip'
 
 cmp.setup {
   completion = {
-    autocomplete = true
+    -- autocomplete = true,
   },
   snippet = {
     expand = function(args)
