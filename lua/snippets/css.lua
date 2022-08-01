@@ -18,19 +18,19 @@ local css = {
     ),
     s("bgr",
       fmt(
-        [[ background-color: red; ]],
+        [[ background-color: red;]],
         {}
       )
     ),
     s("bg",
       fmt(
-        [[ background-color: {1}; ]],
+        [[ background-color: {1};]],
         { i(1, "") }
       )
     ),
     s("df",
       fmt(
-        [[ display: flex; ]],
+        [[ display: flex;]],
         {}
       )
     ),
