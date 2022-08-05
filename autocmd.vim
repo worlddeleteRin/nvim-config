@@ -17,4 +17,4 @@
 " autocmd BufReadPost *.docx :%!pandoc -f docx -t markdown
 " autocmd BufWritePost *.docx :!pandoc -f markdown -t docx
 " autocmd BufWritePost *.docx :!pandoc -f markdown -t docx
-autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+" autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown

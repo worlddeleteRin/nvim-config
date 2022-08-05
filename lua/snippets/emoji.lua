@@ -14,6 +14,7 @@ local emoji = {
   s( "lip", fmt( [[ 💄]], {})),
   s( "spar", fmt( [[ ✨]], {})),
   s( "upd", fmt( [[⚡]], {})),
+  s( "clean", fmt( [[🧹]], {})),
 }
 
 return emoji

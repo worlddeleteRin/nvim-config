@@ -141,3 +141,8 @@ for _, lsp in ipairs(servers) do
   }
 end
 --]]
+--
+--[[
+Installation
+npm i -g vscode-langservers-extracted @tailwindcss/language-server typescript typescript-language-server vls
+--]]

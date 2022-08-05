@@ -9,3 +9,8 @@ require'nvim-treesitter.configs'.setup {
     enable = true
   }
 }
+
+--[[
+Common installation
+TSInstall vue typescript tsx javascript jsdoc lua rust json json5 css scss pug
+--]]

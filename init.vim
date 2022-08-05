@@ -5,8 +5,8 @@ set number
 set noswapfile
 set scrolloff=7
 " set tabstop=3
-" set softtabstop=4
-" set shiftwidth=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set autoindent
 set nobackup
@@ -20,7 +20,7 @@ set colorcolumn=80
 filetype indent on      
 
 " plugins
-source ~/.config/nvim/plugins.vim
+" source ~/.config/nvim/plugins.vim
 " remaps file
 source ~/.config/nvim/remaps.vim
 " maps file
@@ -30,12 +30,12 @@ source ~/.config/nvim/buffer.vim
 " colorscheme
 source ~/.config/nvim/colorscheme.vim
 " autocmd
-source ~/.config/nvim/autocmd.vim
+" source ~/.config/nvim/autocmd.vim
 
 " Telescope set up
 lua << EOF
 -- autocmd init
-
+require("plugins")
 require("cmp-config-local")
 require("lsp-config-local")
 require("autocmd")
