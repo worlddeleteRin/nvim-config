@@ -47,11 +47,13 @@ require("keymaps")
 -- snippets
 require("snippets")
 -- require("lualine-cfg")
--- TESTING
--- TESTING
 require("lualine-evil-cfg")
 require("indent-blankline")
 require("treesitter")
+-- TESTING
+require("testing")
+require("color")
+-- TESTING
 EOF
 
 " Display an error message.

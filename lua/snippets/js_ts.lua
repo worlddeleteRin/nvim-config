@@ -12,6 +12,10 @@ local js_all = {
         { i(1, "") }
       )
     ),
+    s("tr", fmt(
+        [[this.$tc("{1}")]],
+        { i(1, "") }
+    )),
 }
 
 local js = {

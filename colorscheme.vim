@@ -1,7 +1,8 @@
 " colorscheme gruvbox
-let ayucolor="dark"
+" let ayucolor="dark"
 " let ayucolor="mirage"
-colorscheme ayu
+" colorscheme tokyonight
+" let tokyonight_style="dark"
 
 " colorscheme OceanicNext
 "let g:material_terminal_italics = 1
@@ -16,9 +17,10 @@ colorscheme ayu
 "let ayucolor="mirage"
 "colorscheme ayu
 "
-if (has('termguicolors'))
-    set termguicolors
-endif
+
+"if (has('termguicolors'))
+"    set termguicolors
+"endif
 
 set colorcolumn=79
 " lua require 'colorizer'.setup()
