@@ -1,4 +1,7 @@
-vim.g.tokyonight_style = "night" -- day/night/storm
+-- vim.g.tokyonight_style = "day" -- day/night/storm
+require("tokyonight").setup {
+    style = "night"
+}
 
 vim.cmd("colorscheme tokyonight")
 -- vim.g.tokyonight_style = "day"

@@ -17,13 +17,13 @@ return require('packer').startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp'
     use 'saadparwaiz1/cmp_luasnip'
     use 'L3MON4D3/LuaSnip'
- 
 
     use 'nvim-lualine/lualine.nvim'
     use 'kyazdani42/nvim-web-devicons'
 
 
     -- UNDER TEST
+    use 'nvim-lua/lsp-status.nvim'
     -- use 'vim-pandoc/vim-pandoc'
     -- use 'ayu-theme/ayu-vim'
     use 'folke/tokyonight.nvim'

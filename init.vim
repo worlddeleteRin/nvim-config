@@ -40,6 +40,7 @@ require("cmp-config-local")
 require("lsp-config-local")
 require("autocmd")
 require("telescope-config")
+require("color")
 -- custom functions
 require("custom-functions")
 -- custom keymaps
@@ -52,7 +53,6 @@ require("indent-blankline")
 require("treesitter")
 -- TESTING
 require("testing")
-require("color")
 -- TESTING
 EOF
 

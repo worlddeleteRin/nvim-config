@@ -12,3 +12,5 @@ vim.api.nvim_set_keymap('i', '<C-k>', '<Up>', {silent=true})
 
 -- call local rename var function
 vim.api.nvim_set_keymap('n', 'rn', '<cmd>lua RenameVar()<CR>', {})
+
+vim.api.nvim_set_keymap('n', 'gs', '<cmd>Telescope lsp_document_symbols<CR>', { noremap = true })
