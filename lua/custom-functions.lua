@@ -7,10 +7,6 @@ function RenameVar()
   vim.cmd(command)
 end
 
-function GitPull()
-  local command = 'Git pull'
-  vim.cmd(command)
-end
-
 vim.api.nvim_create_user_command('GP', 'Git pull', {})
-
+vim.api.nvim_create_user_command('GG', 'Git push', {})
+vim.api.nvim_create_user_command('GC', 'Git commit', {})
