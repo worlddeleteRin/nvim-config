@@ -1,4 +1,3 @@
-
 local defaultIndent = 2
 local currentJsIndent = 4
 

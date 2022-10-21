@@ -1,13 +1,14 @@
 require'nvim-treesitter.configs'.setup {
-  highlight = {
-    enable = true
-  },
-  incremental_selection = {
-    enable = true
-  },
-  indent = {
-    enable = true
-  }
+    highlight = {
+        enable = true,
+        -- disable = { "typescript" }
+    },
+    incremental_selection = {
+        enable = true
+    },
+    indent = {
+        enable = true
+    },
 }
 
 --[[
