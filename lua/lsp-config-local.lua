@@ -50,7 +50,7 @@ nvim_lsp["pyright"].setup {
 -- typescript
 nvim_lsp["tsserver"].setup {
     on_attach = on_attach,
-    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescriptreact", "typescript.tsx", "typescript"}    
+    filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescriptreact", "typescript.tsx", "typescript"}
 }
 
 -- vue
@@ -66,6 +66,21 @@ nvim_lsp["eslint"].setup {
 
 -- rust (rls)
 nvim_lsp["rust_analyzer"].setup{
+    on_attach = on_attach,
+}
+
+-- go (gopls)
+nvim_lsp["gopls"].setup{
+    on_attach = on_attach,
+}
+
+-- go linter
+nvim_lsp["golangci_lint_ls"].setup{
+    on_attach = on_attach,
+}
+
+-- html
+nvim_lsp["html"].setup{
     on_attach = on_attach,
 }
 

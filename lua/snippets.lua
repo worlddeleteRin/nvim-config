@@ -9,6 +9,7 @@ local css = require 'snippets.css'
 local js = require 'snippets.js_ts'
 local emoji = require 'snippets.emoji'
 local html = require 'snippets.html'
+local vue = require 'snippets.vue'
 
 -- local u = unpack
 --
@@ -30,6 +31,13 @@ ls.add_snippets('vue', css)
 ls.add_snippets('vue', js.js)
 ls.add_snippets('vue', html)
 
+ls.add_snippets('tsx', js.js_all)
+ls.add_snippets('tsx', css)
+ls.add_snippets('tsx', js.js)
+ls.add_snippets('tsx', html)
+
 ls.add_snippets('css', css)
 
 ls.add_snippets('html', html)
+
+ls.add_snippets('vue', vue)

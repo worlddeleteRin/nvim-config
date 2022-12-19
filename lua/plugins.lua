@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'
     use 'kyazdani42/nvim-web-devicons'
 
+    use 'mbbill/undotree'
 
     -- UNDER TEST
     use 'nvim-lua/lsp-status.nvim'

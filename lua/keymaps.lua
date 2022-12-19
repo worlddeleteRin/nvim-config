@@ -13,6 +13,10 @@ vim.api.nvim_set_keymap('i', '<C-k>', '<Up>', {silent=true})
 -- call local rename var function
 vim.api.nvim_set_keymap('n', 'rn', '<cmd>lua RenameVar()<CR>', {})
 
+-- telescope
 vim.api.nvim_set_keymap('n', 'gs', '<cmd>Telescope lsp_document_symbols<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', 'fs', '<cmd>Telescope grep_string<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', 'fd', '<cmd>Telescope diagnostics<CR>', { noremap = true })
+
+-- undotree
+vim.api.nvim_set_keymap('n', '<leader>u', '<cmd>UndotreeToggle<CR>', { noremap = true })

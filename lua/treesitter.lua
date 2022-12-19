@@ -4,7 +4,7 @@ require'nvim-treesitter.configs'.setup {
         -- disable = { "typescript" }
     },
     incremental_selection = {
-        enable = true
+        enable = false
     },
     indent = {
         enable = true

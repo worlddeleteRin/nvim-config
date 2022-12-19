@@ -16,6 +16,7 @@ set cmdheight=1
 set updatetime=300
 set fileformat=unix
 set colorcolumn=80
+" set rnu
 " load filetype-specific indent files
 filetype indent on      
 
@@ -27,8 +28,7 @@ source ~/.config/nvim/remaps.vim
 source ~/.config/nvim/maps.vim
 " buffer :Bclose function
 source ~/.config/nvim/buffer.vim
-" colorscheme
-source ~/.config/nvim/colorscheme.vim
+
 " autocmd
 " source ~/.config/nvim/autocmd.vim
 
@@ -55,6 +55,10 @@ require("treesitter")
 require("testing")
 -- TESTING
 EOF
+
+
+" colorscheme
+source ~/.config/nvim/colorscheme.vim
 
 " Display an error message.
 function! s:Warn(msg)
