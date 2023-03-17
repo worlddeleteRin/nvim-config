@@ -1,5 +1,4 @@
 nnoremap <c-p> <cmd>Telescope find_files<cr>
-nnoremap ff <cmd>Telescope find_files<cr>
 nnoremap FF <cmd>Telescope<cr>
 nnoremap fg <cmd>lua require('telescope.builtin').live_grep()<cr>
 

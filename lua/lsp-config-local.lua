@@ -46,8 +46,6 @@ end
 nvim_lsp["pyright"].setup {
     on_attach = on_attach,
 }
-
--- typescript
 nvim_lsp["tsserver"].setup {
     on_attach = on_attach,
     filetypes = {"javascript", "javascriptreact", "javascript.jsx", "typescriptreact", "typescript.tsx", "typescript"}
@@ -67,6 +65,38 @@ nvim_lsp["eslint"].setup {
 -- rust (rls)
 nvim_lsp["rust_analyzer"].setup{
     on_attach = on_attach,
+    --[[
+    settings = {
+        ["rust-analyzer"] = {
+            check = {
+                allTargets = false,
+                extraArgs = {},
+            },
+            checkOnSave = true,
+            completion = {
+                limit = 15
+            },
+            diagnostics = {
+                disabled = {}
+            },
+            procMacro = {
+                enable = false,
+                ignored = {},
+                attributes = {
+                    enable = false
+                }
+            },
+            cargo = {
+                buildScripts = {
+                    enable = true
+                }
+            },
+            references = {
+                excludeImports = false
+            }
+        }
+    }
+    --]]
 }
 
 -- go (gopls)
@@ -81,6 +111,11 @@ nvim_lsp["golangci_lint_ls"].setup{
 
 -- html
 nvim_lsp["html"].setup{
+    on_attach = on_attach,
+}
+
+-- TODO swift / C/C++/ Objective-C
+nvim_lsp["sourcekit"].setup{
     on_attach = on_attach,
 }
 
@@ -116,11 +151,22 @@ nvim_lsp["csharp_ls"].setup {
     on_attach = on_attach,
 }
 
--- lua | sumneko_lua
-local runtime_path = vim.split(package.path, ';')
-table.insert(runtime_path, "lua/?.lua")
-table.insert(runtime_path, "lua/?/init.lua")
+-- lua_ls
+nvim_lsp["lua_ls"].setup {
+    on_attach = on_attach,
+}
 
+-- solidity
+nvim_lsp["solidity_ls"].setup {
+    on_attach = on_attach,
+}
+
+-- lua | sumneko_lua
+-- local runtime_path = vim.split(package.path, ';')
+-- table.insert(runtime_path, "lua/?.lua")
+-- table.insert(runtime_path, "lua/?/init.lua")
+
+--[[
 nvim_lsp["sumneko_lua"].setup {
     settings = {
     Lua = {
@@ -146,6 +192,7 @@ nvim_lsp["sumneko_lua"].setup {
   },
   on_attach = on_attach
 }
+--]]
 
 --[[
     cmd = {

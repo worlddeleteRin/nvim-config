@@ -1,4 +1,5 @@
 require'nvim-treesitter.configs'.setup {
+    ensure_installed = { "lua", "vim", "help", "javascript", "typescript", "tsx", "vue", "pug", "rust", "html", "python", "yaml", "markdown", "json", "css", "scss" },
     highlight = {
         enable = true,
         -- disable = { "typescript" }
@@ -10,6 +11,8 @@ require'nvim-treesitter.configs'.setup {
         enable = true
     },
 }
+
+require'treesitter-context'.setup {}
 
 --[[
 Common installation

@@ -1,3 +1,4 @@
+--[[
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
@@ -5,8 +6,11 @@ return require('packer').startup(function(use)
 
     use 'tpope/vim-fugitive'
     use 'sharkdp/fd'
+
     -- We recommend updating the parsers on update
     use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+    use 'nvim-treesitter/nvim-treesitter-context'
+
     use 'nvim-lua/plenary.nvim'
     use 'nvim-lua/popup.nvim'
     use 'nvim-telescope/telescope.nvim'
@@ -25,6 +29,9 @@ return require('packer').startup(function(use)
 
     -- UNDER TEST
     use 'nvim-lua/lsp-status.nvim'
+
+    -- LSP progress status
+    use 'j-hui/fidget.nvim'
     -- use 'vim-pandoc/vim-pandoc'
     -- use 'ayu-theme/ayu-vim'
     use 'folke/tokyonight.nvim'
@@ -35,3 +42,4 @@ return require('packer').startup(function(use)
 
 
 end)
+--]]

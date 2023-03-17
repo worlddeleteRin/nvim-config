@@ -1,5 +1,5 @@
 set clipboard+=unnamedplus
-set encoding=utf-8 
+set encoding=utf-8
 set winbar=%=%m\ %f
 set number
 set noswapfile
@@ -35,7 +35,9 @@ source ~/.config/nvim/buffer.vim
 " Telescope set up
 lua << EOF
 -- autocmd init
-require("plugins")
+-- require("plugins_packer")
+require("plugins-lazy")
+require("initials")
 require("cmp-config-local")
 require("lsp-config-local")
 require("autocmd")
@@ -53,6 +55,7 @@ require("indent-blankline")
 require("treesitter")
 -- TESTING
 require("testing")
+require("fidget-cfg")
 -- TESTING
 EOF
 

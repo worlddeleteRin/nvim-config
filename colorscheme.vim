@@ -25,4 +25,4 @@
 set colorcolumn=79
 " lua require 'colorizer'.setup()
 
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
