@@ -40,6 +40,7 @@ require("lazy").setup({
     -- 'ayu-theme/ayu-vim'
     -- 'folke/tokyonight.nvim',
     { 'rose-pine/neovim', name = 'rose-pine' },
+    -- { 'rebelot/kanagawa.nvim' },
     -- 'calviken/vim-gdscript3'
     'hrsh7th/cmp-emoji',
 
